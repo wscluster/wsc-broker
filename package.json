@@ -3,6 +3,9 @@
   "version": "1.0.1",
   "description": "A simple broker engine for ws-cluster.",
   "main": "index.js",
+  "bin": {
+    "wsc-broker": "./bin/wsc-broker.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

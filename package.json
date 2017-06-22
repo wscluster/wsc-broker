@@ -1,6 +1,6 @@
 {
   "name": "wsc-simple-broker",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A simple broker engine for ws-cluster.",
   "main": "index.js",
   "bin": {

@@ -1,6 +1,6 @@
 {
   "name": "wsc-simple-broker",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A simple broker engine for ws-cluster.",
   "main": "index.js",
   "scripts": {
@@ -23,6 +23,6 @@
   "homepage": "https://github.com/wscluster/wsc-simple-broker#readme",
   "dependencies": {
     "commander": "^2.9.0",
-    "websocket-lib": "^2.6.0"
+    "websocket-lib": "^2.6.1"
   }
 }

@@ -13,11 +13,11 @@ function createServer(options) {
 
 /**
  * Create a connection to the WebSocket Cluster Server.
- * @param  {String|Object} [options]                  If options is a string, it is automatically parsed with url.parse().
- * @param  {String}        [options.host = localhost] A domain name or IP address of the server.
- * @param  {Number}        [options.port = 80|443]    Port of remote server.
- * @param  {Object}        [options.headers]          Headers to be sent to the server.
- * @param  {String|Array}  [options.subProtocols]     The list of WebSocket sub-protocols.
+ * @param  {Number|String|Object} [options]                  If options is a string, it is automatically parsed with url.parse().
+ * @param  {String}               [options.host = localhost] A domain name or IP address of the server.
+ * @param  {Number}               [options.port = 80|443]    Port of remote server.
+ * @param  {Object}               [options.headers]          Headers to be sent to the server.
+ * @param  {String|Array}         [options.subProtocols]     The list of WebSocket sub-protocols.
  * @return {Client}
  */
 function connect(options) {

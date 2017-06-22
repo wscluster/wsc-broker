@@ -1,0 +1,28 @@
+{
+  "name": "wsc-simple-broker",
+  "version": "1.0.0",
+  "description": "A simple broker engine for ws-cluster.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wscluster/wsc-simple-broker.git"
+  },
+  "keywords": [
+    "websocket",
+    "ws",
+    "cluster"
+  ],
+  "author": "Lanfei",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wscluster/wsc-simple-broker/issues"
+  },
+  "homepage": "https://github.com/wscluster/wsc-simple-broker#readme",
+  "dependencies": {
+    "commander": "^2.9.0",
+    "websocket-lib": "^2.6.0"
+  }
+}

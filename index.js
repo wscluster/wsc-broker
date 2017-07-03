@@ -24,8 +24,7 @@ function connect(options) {
 	return new Client(options);
 }
 
-module.exports = connect;
-module.exports.Server = Server;
-module.exports.Client = Client;
-module.exports.createServer = createServer;
-module.exports.connect = connect;
+exports.Server = Server;
+exports.Client = Client;
+exports.createServer = createServer;
+exports.connect = connect;

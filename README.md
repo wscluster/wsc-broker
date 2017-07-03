@@ -25,11 +25,13 @@ npm install wsc-simple-broker
 
 ## Usage
 
-### new broker.Server(options);
+### new broker.Server(options)
 
 Simple broker server for ws-cluster.
 
 #### options
+
+Type: Object
     
 ##### options.httpServer
 
@@ -43,7 +45,7 @@ Type: Boolean Default: true
 
 If true, the server will accept sessions automatically, otherwise, you should resolve sessions by calling `session.accept()` or `session.reject()` method in `session` event.
 
-### new broker.Client(options);
+### new broker.Client(options)
 
 #### options
 

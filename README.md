@@ -1,5 +1,5 @@
 # wsc-simple-broker
-A simple broker engine for [ws-cluster](https://github.com/wscluster/ws-cluster). It allows you to scale `ws-cluster` horizontally across multiple machines.
+A simple broker engine for [ws-cluster](https://github.com/wscluster/ws-cluster). It allows you to scale ws-cluster horizontally across multiple machines.
 
 ## Installation
 

@@ -23,7 +23,7 @@ wsc-broker -p [port]
 npm install wsc-simple-broker
 ```
 
-## Usage
+## API
 
 ### new broker.Server(options)
 
@@ -33,17 +33,11 @@ Simple broker server for ws-cluster.
 
 Type: Object
     
-##### options.httpServer
+##### options.secretKey
 
-Type: Object
+Type: String
 
-The Node http or https server instance to attach to.
-
-##### options.autoAccept
-
-Type: Boolean Default: true
-
-If true, the server will accept sessions automatically, otherwise, you should resolve sessions by calling `session.accept()` or `session.reject()` method in `session` event.
+A secret key to verify incoming sessions.
 
 ### new broker.Client(options)
 
@@ -62,6 +56,12 @@ A domain name or IP address of the server.
 Type: Number Default: 80
 
 Port of remote server.
+
+##### options.secretKey
+
+Type: String
+
+Should be match the `secretKey` option of `broker.Server`.
 
 ### broker.createServer(options)
 

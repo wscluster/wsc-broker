@@ -1,14 +1,14 @@
-# wsc-simple-broker
+# wsc-broker
 A simple broker engine for [ws-cluster](https://github.com/wscluster/ws-cluster). It allows you to scale ws-cluster horizontally across multiple machines.
 
 ## Installation
 
-There are two ways to install wsc-simple-broker.
+There are two ways to install wsc-broker.
 
 ### Global way
 
 ```bash
-npm install -g wsc-simple-broker
+npm install -g wsc-broker
 ```
 
 Then you can use run the broker server by command:
@@ -20,7 +20,7 @@ wsc-broker -p [port]
 ### Modular way
 
 ```bash
-npm install wsc-simple-broker
+npm install wsc-broker
 ```
 
 ## API

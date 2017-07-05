@@ -20,7 +20,32 @@ wsc-broker -p [port]
 ### Modular way
 
 ```bash
-npm install wsc-broker
+npm install wsc-broker --save
+```
+
+## Usage
+
+### Server
+
+```js
+var broker = require('wsc-broker');
+
+broker.createServer({
+	secretKey: 'wsc-broker-pass'
+}).listen(6667, function () {
+	console.log('broker listening');
+});
+```
+
+### Client
+
+```js
+var broker = require('wsc-broker');
+
+var client = broker.connect({
+	port: 6667,
+	secretKey: 'wsc-broker-pass'
+});
 ```
 
 ## API

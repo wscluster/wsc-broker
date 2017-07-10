@@ -4,7 +4,8 @@ var Client = require('./lib/client');
 /**
  * Create a WebSocket Cluster Server.
  * @method createServer
- * @param  {Object}   [options]
+ * @param   {Object}   [options]
+ * @param   {String}   [options.secretKey] A secret key to verify incoming sessions.
  * @return {Server}
  */
 function createServer(options) {
@@ -16,8 +17,7 @@ function createServer(options) {
  * @param  {Number|String|Object} [options]                  If options is a string, it is automatically parsed with url.parse().
  * @param  {String}               [options.host = localhost] A domain name or IP address of the server.
  * @param  {Number}               [options.port = 80|443]    Port of remote server.
- * @param  {Object}               [options.headers]          Headers to be sent to the server.
- * @param  {String|Array}         [options.subProtocols]     The list of WebSocket sub-protocols.
+ * @param  {String}               [options.secretKey]        Port of remote server.
  * @return {Client}
  */
 function connect(options) {

@@ -16,7 +16,8 @@
   "keywords": [
     "websocket",
     "ws",
-    "cluster"
+    "cluster",
+    "realtime"
   ],
   "author": "Lanfei",
   "license": "MIT",
